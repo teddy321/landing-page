@@ -95,17 +95,17 @@ img {
 
 .container-one div {
     display: flex;
-    justify-content: center;
-    gap: 8px;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .container-one .left {
-    padding: 32px 32px;
-    width: 400px;
+    flex-basis: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    flex: 1 1 auto;
+    text-align: left;
+    margin-right: 50px;
 }
 
 .container-one .left h1 {
