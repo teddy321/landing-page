@@ -98,6 +98,7 @@ img {
 .container-one div {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 8px;
 }
 
@@ -158,6 +159,7 @@ img {
     padding: 0;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 16px;
 }
 
