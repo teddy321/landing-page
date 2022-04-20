@@ -38,12 +38,36 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Image styling */
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.fill {
+    height: 50px;
+    width: 50%;
+}
+
+.fill img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 /* Header styling*/
 
 .header {
     max-height: 40px;
     color: white;
     background-color: #1F2937;
+    padding: 4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -150,8 +174,8 @@ li {
 .container-two ul li div {
     border: 2px solid #3882f6;
     border-radius: 15px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .container-two ul li p {
@@ -178,7 +202,7 @@ li {
 }
 
 .container-three .quote {
-    margin: 0;
+    margin: 8px;
     text-align: left;
     font-size: 26px;
     font-weight: lighter;
@@ -233,6 +257,7 @@ li {
 /* Footer styling*/
 
 .footer {
+    padding: 8px;
     max-height: 40px;
     color: white;
     background-color: #1F2937;
